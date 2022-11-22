@@ -1,0 +1,21 @@
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+#div1 {
+    overflow:scroll;
+    height:200px;
+    width:500px;
+}
+
+#div1 table {
+    width:500px;
+    background-color:lightgray;
+}

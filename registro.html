@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+<html>
+  <head>
+    <title>registro</title>
+     <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600|Open+Sans" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/iconmoon.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <link rel="stylesheet" href="Recursos/estilos3.css" type="text/css"/>
+  
+  </head>
+  
+  <body>
+      
+	 <div class="form-body">
+        <div class="row">
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <h3>Regristro</h3>
+                        <p></p>
+                        <form class="requires-validation" novalidate>
+
+                            <div class="col-md-12">
+                               <input class="form-control" type="text" name="name" placeholder="Full Name" required>
+                               <div class="valid-feedback">Ingrese nombre  usuario </div>
+                               <div class="invalid-feedback">
+¡El campo de nombre de usuario no puede estar en blanco!</div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>
+                                 <div class="valid-feedback">El campo de correo electrónico es válido!</div>
+                                 <div class="invalid-feedback"></div>
+                            </div>
+
+                           <div class="col-md-12">
+                                <select class="form-select mt-3" required>
+                                      <option selected disabled value="">Elegir</option>
+                                      <option value="jweb">1</option>
+                                      <option value="sweb">2</option>
+                                      <option value="pmanager">3</option>
+                               </select>
+                                <div class="valid-feedback">
+¡Seleccionaste una posición!</div>
+                                <div class="invalid-feedback">
+¡Seleccione una posición!</div>
+                           </div>
+
+
+                           <div class="col-md-12">
+                              <input class="form-control" type="password" name="password" placeholder="Password" required>
+                               <div class="valid-feedback">¡El campo de contraseña es válido!</div>
+                               <div class="invalid-feedback">
+¡El campo de contraseña no puede estar en blanco!</div>
+                           </div>
+
+
+                           <div class="col-md-12 mt-3">
+                            <label class="mb-3 mr-1" for="gender">Genero </label>
+
+                            <input type="radio" class="btn-check" name="gender" id="male" autocomplete="off" required>
+                            <label class="btn btn-sm btn-outline-secondary" for="male">Masculino</label>
+
+                            <input type="radio" class="btn-check" name="gender" id="female" autocomplete="off" required>
+                            <label class="btn btn-sm btn-outline-secondary" for="female">Femenino</label>
+
+                            <input type="radio" class="btn-check" name="gender" id="secret" autocomplete="off" required>
+                            <label class="btn btn-sm btn-outline-secondary" for="secret">Secreto</label>
+                               <div class="valid-feedback mv-up">¡Seleccionaste un género!</div>
+                                <div class="invalid-feedback mv-up">¡Por favor seleccione un género!</div>
+                            </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                          <label class="form-check-label">Confirmo que todos los datos son correctos</label>
+                         <div class="invalid-feedback">¡Confirme que todos los datos ingresados ​​son correctos!</div>
+                        </div>
+                  
+
+                            <div class="form-button mt-3">
+                                <button id="submit" type="submit" class="btn btn-primary">Registrar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+  </body>
+</html>

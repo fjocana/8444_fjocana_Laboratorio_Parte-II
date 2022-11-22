@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+<html>
+  <head>
+    <title>producto</title>
+     <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600|Open+Sans" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/iconmoon.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <link rel="stylesheet" href="Recursos/estilos4.css" type="text/css"/>
+  
+  </head>
+  
+  <body>
+   
+    <!-- JQUERY STEP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-steps/1.1.0/jquery.steps.min.js"></script>
+<div class="wrapper">
+    <form action="">
+        <div id="wizard">
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+            <!-- SECTION 1 -->
+            <h4></h4>
+            <section>
+                <div class="form-row"> <input type="text" class="form-control" placeholder="Name"> </div>
+                <div class="form-row"> <input type="text" class="form-control" placeholder="Email"> </div>
+                <div class="form-row"> <input type="text" class="form-control" placeholder="Phone number"> </div>
+                <div class="form-row"> <input type="text" class="form-control" placeholder="Street address"> </div>
+            </section> <!-- SECTION 2 -->
+            <h4></h4>
+            <section>
+                <div class="form-row"> <input type="text" class="form-control" placeholder="country"> </div>
+               <fieldset>
+    <legend>Datos Económicos</legend>
+        <table align="left" border="0">
+          <tr>
+                <td>Precio: </td>
+                <td> <input id="Económico1" type="number" value="" min="100" max="200" required> </td>
+          
+                <td>$</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td>Impuestos: </td>
+                <td>
+          <select name="cmbImpuesto" id="Económico2">
+                    <option value="4">4%</option>
+                    <option value="7">7%</option>
+                    <option value="16">16%</option>
+                    <option value="25">25%</option>
+                  </select></td>
+          </tr>
+        </table>        
+    <br><br>
+    <label>Promoción</label><br>
+    <input type="radio" name="rbPromocion" value="Ninguno" id="Económico3" checked>Ninguno  <br>
+    <input type="radio" name="rbPromocion" value="Gratuito" id="Económico3">Tranporte Gratuito<br>
+    <input type="radio" name="rbPromocion" value="Descuento" id="Económico3">Descuento 5%<br>
+  </fieldset>
+  
+              
+            </section> <!-- SECTION 3 -->
+            <h4></h4>
+            <section>
+                <div class="product">
+                    <div class="item">
+                        <div class="left"> <a href="#" class="thumb"> <img src="https://i.imgur.com/yYu3Hbl.jpg" alt=""> </a>
+                            <div class="purchase">
+                                <h6> <a href="#">Macbook Air Laptop</a> </h6> <span>x1</span>
+                            </div>
+                        </div> <span class="price">$290</span>
+                    </div>
+                    <div class="item">
+                        <div class="left"> <a href="#" class="thumb"> <img src="https://www.businessinsider.in/thumb/msid-70101317,width-600,resizemode-4,imgsize-87580/tech/ways-to-increase-mobile-phone-speed/13d0e0722dbca5aa91e16a8ae2a744e5.jpg" alt=""> </a>
+                            <div class="purchase">
+                                <h6> <a href="#">Mobile Phone Mi</a> </h6> <span>x1</span>
+                            </div>
+                        </div> <span class="price">$124</span>
+                    </div>
+                </div>
+                <div class="checkout">
+                    <div class="subtotal"> <span class="heading">Subtotal</span> <span class="total">$364</span> </div>
+                </div>
+            </section> <!-- SECTION 4 -->
+            <h4></h4>
+            <section>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.2 130.2">
+                    <circle class="path circle" fill="none" stroke="#73AF55" stroke-width="6" stroke-miterlimit="10" cx="65.1" cy="65.1" r="62.1" />
+                    <polyline class="path check" fill="none" stroke="#73AF55" stroke-width="6" stroke-linecap="round" stroke-miterlimit="10" points="100.2,40.2 51.5,88.8 29.8,67.5 " />
+                </svg>
+                <p class="success">Order placed successfully. Your order will be dispacted soon. meanwhile you can track your order in my order section.</p>
+                <div class="form-button mt-3">
+                                <button id="submit" type="submit" class="btn btn-primary">Registrar</button>
+                            </div>
+            </section>
+        </div>
+    </form>
+</div>
+
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+  </body>
+</html>
